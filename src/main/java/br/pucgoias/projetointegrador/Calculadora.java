@@ -8,19 +8,21 @@ public class Calculadora {
 
     // Método para subtração
     public double subtrair(double a, double b) {
-        // TODO: Implementar a lógica da subtração
-        return 0;
+
+        return a - b;
     }
 
     // Método para multiplicação
     public double multiplicar(double a, double b) {
-        // TODO: Implementar a lógica da multiplicação
-        return 0;
+
+        return a * b;
     }
 
     // Método para divisão
     public double dividir(double a, double b) {
-        // TODO: Implementar a lógica da divisão
-        return 0;
+        if (b == 0) {
+            throw new IllegalArgumentException("Divisor não pode ser zero");
+        }
+        return a / b;
     }
 }
