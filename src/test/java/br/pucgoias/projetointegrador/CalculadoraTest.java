@@ -40,7 +40,7 @@ public class CalculadoraTest {
     }
 
     @Test
-    @DisplayName("Deve multiplicar dois números corretamente")
+    @DisplayName("Deve multiplicar dois numeros corretamente")
     void testMultiplicarDoisNumeros() {
         assertEquals(25, calc.multiplicar(5, 5), "A multiplicação de 5 * 5 deve ser 25");
     }
